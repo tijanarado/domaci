@@ -1,1 +1,4 @@
 node_modules/
+login.cy.js
+login2.cy.js
+registre2.cy.js

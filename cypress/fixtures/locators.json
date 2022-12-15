@@ -1,0 +1,36 @@
+{
+
+"header": {
+    "loginBtn": "a[href='/login']",
+    "logoutBtn": ".ml-auto > :nth-child(1) > .nav-link",
+    "registreBtn": "a[href='/register']"
+    
+    },
+
+"registre": {
+    "firstName": "#first-name",
+    "lastName": "#last-name",
+    "emailInput": "#email",
+    "passwordInput": "#password",
+    "confirmPassword": "#password-confirmation",
+    "terms": ".form-check-input",
+    "registreBtn": "button"
+
+},
+ 
+"login": {
+    "emailInput": "#email",
+    "passwordInput": "#password",
+    "submitBtn": "button"
+},
+
+"logout": {
+    "emailInput": "#email",
+    "passwordInput": "#password",
+    "submitBtn": "button",
+    "logoutBtn": ".ml-auto > :nth-child(3) > .nav-link"
+
+
+}
+
+}
