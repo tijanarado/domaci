@@ -1,4 +1,13 @@
 node_modules/
+screenshots/
+allGallObjects.js
+createGallObjects.js
 login.cy.js
 login2.cy.js
 registre2.cy.js
+createGallObjects.cy.js
+
+
+
+
+
