@@ -1,5 +1,3 @@
-
-
 class LoginPage {
 
     get emailInput() {
@@ -9,7 +7,7 @@ class LoginPage {
     get passwordInput() {
         return cy.get("#password")
     }
-    
+
     get submitButton() {
         return cy.get("button")
     }

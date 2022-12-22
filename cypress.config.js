@@ -4,12 +4,12 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
 
-  "baseUrl": "https://gallery-app.vivifyideas.com/",
+    "baseUrl": "https://gallery-app.vivifyideas.com/",
 
-  "env": {
-    "validLoginEmail": "tt@tt.tt",
-    "validLoginPassword": "ttttttt8"
-  },
+    "env": {
+      "validLoginEmail": "tt@tt.tt",
+      "validLoginPassword": "ttttttt8"
+    },
 
 
     setupNodeEvents(on, config) {

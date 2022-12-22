@@ -12,9 +12,14 @@ class HomePage {
         return cy.get("a[href='/register']")
     }
 
+    get createGall() {
+        // return cy.get("a[href='/create']")
+        return cy.get('.mr-auto > :nth-child(3) > .nav-link')
+    }
+
     clickLoginButton() {
         // cy.get("a[href='/login']").click()
-            this.loginBtn.click()
+        this.loginBtn.click()
     }
 
     clickLogoutButton() {
@@ -23,6 +28,10 @@ class HomePage {
 
     clickRegisterButton() {
         this.registerBtn.click()
+    }
+
+    clickCreateButton() {
+        this.createGall.click()
     }
 }
 export const homePage = new HomePage()
