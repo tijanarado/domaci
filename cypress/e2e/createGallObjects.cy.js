@@ -24,6 +24,9 @@ describe('Create new gallery', () => {
         cy.wait('@validCreate').then((request) => {
             expect(request.response.statusCode).to.eql(201);
 
+            const newGalleryId = request.response.body.id;
+            cy.log(newGalleryId)
+
         })
     })
 
